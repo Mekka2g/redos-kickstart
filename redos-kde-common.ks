@@ -2,6 +2,7 @@
 # install env-group to resolve RhBug:1891500
 @^kde-desktop-environment
  
+@internet-browser
 @kde-apps
 @kde-media
 @libreoffice
@@ -16,7 +17,7 @@ libreoffice-math
 ### The KDE-Desktop
 ### fixes
 # minimal localization support - allows installing the kde-l10n-* packages
-kde-l10n
+kde-i18n-Russian
 # Additional packages that are not default in kde-* groups, but useful
 fuse
 #mediawriter

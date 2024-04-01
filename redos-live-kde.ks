@@ -1,5 +1,5 @@
 %include redos-live-kde-base.ks
 # DVD payload
-part / --size=12000
+part / --size=9500
 %post
 %end
