@@ -2,15 +2,12 @@
 # install env-group to resolve RhBug:1891500
 @^kde-desktop-environment
  
-@firefox
 @kde-apps
 @kde-media
 @libreoffice
 # add libreoffice-draw and libreoffice-math (pagureio:fedora-kde/SIG#103)
 libreoffice-draw
 libreoffice-math
- 
-redos-release-desktop
  
 -@admin-tools
 # drop tracker stuff pulled in by gtk3 (pagureio:fedora-kde/SIG#124)
