@@ -1,7 +1,7 @@
  
-lang en_US.UTF-8
-keyboard us
-timezone US/Eastern
+lang ru_RU.UTF-8
+keyboard --vckeymap=us --xlayouts='us','ru' --switch='grp:alt_shift_toggle'
+timezone Europe/Moscow --isUtc
 selinux --enforcing
 firewall --enabled --service=mdns
 xconfig --startxonboot
