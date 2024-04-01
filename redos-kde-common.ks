@@ -5,7 +5,6 @@
 @firefox
 @kde-apps
 @kde-media
-@kde-pim
 @libreoffice
 # add libreoffice-draw and libreoffice-math (pagureio:fedora-kde/SIG#103)
 libreoffice-draw

@@ -4,7 +4,7 @@ keyboard us
 timezone US/Eastern
 selinux --enforcing
 firewall --enabled --service=mdns
-text
+xconfig --startxonboot
 zerombr
 clearpart --all
 part / --size 5120 --fstype ext4
